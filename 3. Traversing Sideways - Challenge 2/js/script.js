@@ -3,6 +3,6 @@ $(document).ready(function () {
     $(this).prev().slideDown();
   });
   $("h2").click(function () {
-    $(this).next().slideUp();
+    $(this).next().children("p").slideUp();
   });
 });
